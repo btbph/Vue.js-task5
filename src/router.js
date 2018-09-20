@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Home from '@/views/Home'
 import Cart from '@/views/Cart'
+import Details from '@/views/Details'
 
 import Index from '@/views/admin/Index'
 import New from '@/views/admin/New'
@@ -45,6 +46,11 @@ export default new Router({
       path: '/cart',
       name:'Cart',
       component: Cart
+    },
+    {
+      path: '/details/:id',
+      name: 'Details',
+      component: Details
     }
   ]
 })

@@ -1,5 +1,5 @@
 import axios from 'axios'
-const API_BASE = 'localhost/api/vi>'
+const API_BASE = 'http://localhost:3000/api/v1'
 
 import {
   ADD_PRODUCT,
