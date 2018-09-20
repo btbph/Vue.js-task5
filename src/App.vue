@@ -69,6 +69,8 @@
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
+
   .overlay {
     background: rgba(255, 255, 255, 0.6);
     position: absolute;
@@ -247,8 +249,6 @@
     100% {
     }
   }
-
-  @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
 
   html, body {
     height: 100%;
