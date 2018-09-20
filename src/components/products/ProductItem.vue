@@ -9,7 +9,7 @@
         <div class="product__description">
           <div class="product__info">
             <small>{{product.manufacturer.name}}</small>
-            <h4>{{product.name}}</h4>
+            <h4>{{product.name | countChars}}</h4>
           </div>
           <div class="product__price-cart">
             ${{product.price}}
